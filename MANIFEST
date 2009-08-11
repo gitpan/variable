@@ -2,4 +2,6 @@ MANIFEST
 Makefile.PL
 t/000_tests.t
 lib/variable.pm
+Changes
+README
 META.yml                                 Module meta-data (added by MakeMaker)
