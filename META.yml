@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               variable
-version:            2009110701
+version:            2009110702
 abstract:           Perl pragma to declare (scalar) variables without a leading C<.
 author:
     - Abigail <cpan@abigail.be>
@@ -11,10 +11,11 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Lingua::EN::Numbers:  1.01
-    perl:                 5.006
-    strict:               0
-    warnings:             0
+    Carp:                0
+    perl:                5.006
+    strict:              0
+    warnings:            0
+    warnings::register:  0
 resources:
     repository:  git://github.com/Abigail/variable.git
 no_index:
